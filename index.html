@@ -6,10 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>White Crew Driver</title>
-    <base href="/whitescrewdriver.press/">
+    
+    <!-- <base href="/whitescrewdriver.press/"> -->
+    <!-- For local development -->
     <!-- <base href="/"> -->
-    <base id="thisBase" href="https://lanskask.github.io/whitescrewdriver.press/">
-    <!-- <link rel="stylesheet" type="text/css" href="/whitescrewdriver.press/styles/main.css"> -->
+    <!-- <base  href="/"> -->
+    <!-- For prodaction on GitHub Pages -->
+    <base href="https://lanskask.github.io/whitescrewdriver.press/">
     <link rel="stylesheet" type="text/css" href="styles/main.css">
 </head>
 
@@ -23,7 +26,7 @@
             <article class="article">
                 <header class="article_header">Article header</header>
                 <div class="article_body">
-                    <b>It's a pic bind with relative path:</b>
+                    <b>It's a pic bind with REALTIVE path:</b>
                     <img src="./assets/creature.gif" width="130px">
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi inventore dolore incidunt exercitationem nostrum tempore,
@@ -83,11 +86,6 @@
     </div>
 
     <footer id="footer">It's a footer &copy;</footer>
-
-    <!-- Scripts -->
-    <script>
-        console.log('base: ', document.getElementById("thisBase"));
-    </script>
 </body>
 
 </html>
