@@ -7,14 +7,15 @@
 /* ---- Header ----- */
 #header {
     background: green;
-    margin: 10px auto;
+    padding: 10px auto;
 }
 
 /* ---- Wrapper ----- */
 .wrap {
     width: 80%;
     margin: 0 auto;
-    height: 100vh;
+    /* height: 100vh; */
+    height: 100%;
 }
 
 /* ---- Articles ----- */
