@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>White Crew Driver</title>
-    <!-- <base href="/whitescrewdriver.press/"> -->
-    <base href="/">
-    <link rel="stylesheet" type="text/css" href="/whitescrewdriver.press/styles/main.css">
+    <base href="/whitescrewdriver.press/">
+    <!-- <base href="/"> -->
+    <base id="thisBase" href="https://lanskask.github.io/whitescrewdriver.press/">
+    <!-- <link rel="stylesheet" type="text/css" href="/whitescrewdriver.press/styles/main.css"> -->
+    <link rel="stylesheet" type="text/css" href="/styles/main.css">
 </head>
 
 <body>
@@ -39,7 +41,7 @@
                 <header class="article_header">Article header</header>
                 <div class="article_body">
                     <b>It's a pic bind with ABSOLUTE path:</b>
-                    <img src="/whitescrewdriver.press/assets/brocolli_tree.jpg" width="130px">
+                    <img src="/assets/brocolli_tree.jpg" width="130px">
                     <p>
                         Minus dolore, obcaecati natus facere excepturi fuga debitis qui ex! Aperiam quis cumque expedita quia nobis alias deserunt
                         molestias voluptas assumenda atque, magni corporis quae quod aliquid odit ut necessitatibus. Totam,
@@ -81,6 +83,11 @@
     </div>
 
     <footer id="footer">It's a footer &copy;</footer>
+
+    <!-- Scripts -->
+    <script>
+        console.log('base: ', document.getElementById("thisBase"));
+    </script>
 </body>
 
 </html>
