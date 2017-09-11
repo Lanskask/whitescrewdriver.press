@@ -7,7 +7,12 @@
 /* ---- Header ----- */
 #header {
     background: green;
-    padding: 10px auto;
+    margin: 0 auto;
+}
+
+.main_header {
+    background: blue;
+    margin: 0 auto;
 }
 
 /* ---- Wrapper ----- */
@@ -52,6 +57,10 @@
 
 /* ---- Footer ----- */
 #footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    
     background: green;
     font-weight: bold;
 }
