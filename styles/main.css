@@ -6,21 +6,24 @@
 
 /* ---- Header ----- */
 #header {
-
+    background: green;
 }
 
 /* ---- Wrapper ----- */
 .wrap {
+    width: 80%;
+    margin: 0 auto;
     height: 100vh;
 }
 
 /* ---- Articles ----- */
 .article {
-
+    margin-top: 20px;
 }
 
 .article_header {
-
+    font-weight: bold;
+    font-style: italic;
 }
 
 .article_body {
@@ -28,7 +31,7 @@
 }
 
 .artile_footer {
-
+    font-style: italic;
 }
 
 /* ---- Aside ---- */
@@ -36,7 +39,17 @@
 
 }
 
+#aside a {
+    text-decoration: none;
+    color: black;
+}
+
+#aside a:hover {
+    color: blue;
+}
+
 /* ---- Footer ----- */
 #footer {
-
+    background: green;
+    font-weight: bold;
 }
