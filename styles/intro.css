@@ -1,0 +1,38 @@
+body {
+    /* display: flex;
+    flex-direction: column; */
+    background-image: url('../img/intro/intro-background.png'); 
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.wrap {
+    margin: auto;
+    margin-top: 235px;
+    width: 50%;
+    text-align: center;
+}
+
+.send-button {
+    background-color: Transparent;
+    margin-top: 40px;
+    border: 1px solid rgb(28, 91, 195); 
+    border-radius: 3px;
+    width: 205px;
+    height: 43px;
+}
+
+.send-button__text {
+    vertical-align: middle;
+    font-size: 12px;
+    /* font-family: "Roboto"; */
+    color: rgb(28, 91, 196);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.send-button__text:after {
+    margin-left: 10px;
+    content: url('../img/icons/send_arror__hover.png');
+    vertical-align: middle;
+}
