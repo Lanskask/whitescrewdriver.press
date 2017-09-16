@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+	font-family: Roboto;
 }
 
 .row::after {
@@ -26,3 +27,148 @@
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
+
+/* Blocks at all pages */
+/* Header */
+header.site-header {
+	background: #3366cc;
+}
+
+.logo {
+	display: inline-block;
+}
+
+	.logo img  {
+
+	}
+
+.contact-shedule {
+	display: inline-block;
+	float: right;
+	text-align: right;
+}
+
+.contact__tel {
+
+}
+
+.contact__shedule {
+
+}
+
+.shedule-tooltip {
+	display: none;
+}
+
+.shedule-tooltip__work-hours {
+
+}
+
+.shedule-tooltip__dinner {
+
+}
+
+
+/* Wrapper */
+.wraper {
+
+}
+
+	/* Aside + nav */
+	.aside {}
+		.nav {}
+		.nav__ul {}
+
+	.main-section {
+
+	}
+
+	.breadcrumbs {
+
+	}
+
+	.article {
+
+	}
+
+	.article__header {
+
+	}
+
+	.article__body {
+
+	}
+
+/* Footer */
+footer.site-footer {
+	background: #3366cc;
+}
+
+	.made-by {
+
+	}
+
+	.made-by__school {
+
+	}
+
+	.made-by__author {
+
+	}
+
+
+	.made-by_bold {
+
+	}
+
+	.made-by_underline {
+
+	}
+
+
+	.logo  {
+		display: inline-block;
+		margin: 0 auto;	
+		text-align: center;	
+	}
+
+	.logo_center {
+
+	}
+
+	.logo img {
+
+	}
+
+
+	.socials {
+		/*text-align: right;*/
+	}
+
+	.socials__header {
+
+	}
+
+	.socials__icons {
+
+	}
+
+	.vk {
+
+	}
+
+	.face {
+
+	}
+
+	.g_pl {
+
+	}
+
+	.twt {
+
+	}
+
+	.email {
+
+	}

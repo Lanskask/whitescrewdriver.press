@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../styles/main.css">
     <link rel="stylesheet" href="../styles/about.css">
     <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -17,9 +18,11 @@
         <div class="logo">
             <img src="../img/logo_header.png" alt="logo">
         </div>
-        <div class="contact">
+        <div class="contact-shedule">
             <div class="contact__tel">8 (800) 00-392-10</div>
-            <div class="contact__shedule"></div>
+            <div class="contact__shedule">
+                График работы
+            </div>
         </div>
         <div class="shedule-tooltip">
             <div class="shedule-tooltip__work-hours">
@@ -31,11 +34,11 @@
         </div>
     </header>
     <!-- End of Site header -->
-    <div class="wraper">
+    <div class="wraper row">
         <!-- Aside navigation -->
-        <aside>
-            <nav>
-                <ul>
+        <aside class="aside col-2">
+            <nav class="nav">
+                <ul class="nav__ul">
                     <li><a href="#">Главная</a></li>
                     <li><a href="./team.html">Экипаж</a></li>
                     <li><a href="./comments.html">Отзывы</a></li>
@@ -44,7 +47,7 @@
         </aside>
         <!-- End of Aside navigation -->
 
-        <section class="main-section">
+        <section class="main-section col-8">
             <!-- Breadcrumbs -->
             <div class="breadcrumbs">Главная / Экипаж</div>
             <!-- End of Breadcrumbs -->
@@ -119,8 +122,8 @@
     <!-- End of Wrapper -->
 
     <!-- Site footer -->
-    <footer class="site-footer">
-        <div class="made-by">
+    <footer class="site-footer col-12">
+        <div class="made-by col-3">
             Сделано с любовью и старанием на курсе «HTML + CSS» в
             <span class="made-by__school made-by_bold made-by_underline">
                 LoftSchool 
@@ -130,29 +133,22 @@
             </span>
         </div>
 
-        <div class="logo logo_center">
+        <div class="logo logo_center col-6">
             <img src="../img/logo_header.png" alt="logo">
         </div>
-        <div class="socials">
+        <div class="col-1"></div>
+        <div class="socials col-2">
             <div class="socials__header">
                 Наши социальные сети
             </div>
             <div class="socials__icons">
-                <span class="vk">
-                    <img src="" alt="vk">
-                </span>
-                <span class="face">
-                    <img src="" alt="face">
-                </span>
-                <span class="g_pl">
-                    <img src="" alt="g_pl">
-                </span>
-                <span class="twt">
-                    <img src="" alt="twt">
-                </span>
-                <span class="email">
-                    <img src="" alt="email">
-                </span>
+                <ul>
+                    <li><i class="fa fa-vk"></i></li>
+                    <li><i class="fa fa-facebook"></i></li>
+                    <li><i class="fa fa-google-plus"></i></li>
+                    <li><i class="fa fa-twitter"></i></li>
+                    <li><i class="fa fa-envelope"></i></li>
+                </ul>
             </div>
         </div>
     </footer>
