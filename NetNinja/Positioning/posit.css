@@ -1,0 +1,44 @@
+body {
+	background-color: grey;
+}
+
+
+.wrapper {
+	display: flex;
+	justify-content: center;
+	background: #fff;
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.wrapper:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+.blue {
+	float: left;
+	background: blue;
+}
+
+.red {
+	float: left;
+	background: red;
+	margin: 0 auto;
+	/*align-self: center;*/
+}
+
+.green {
+	float: left;
+	margin-left: -10px;
+	/*float: right;*/
+	background: green;
+}
+
+.box {
+	height: 100px;
+	width: 100px;
+}

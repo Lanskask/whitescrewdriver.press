@@ -1,58 +1,3 @@
-/* Header */
-header.site-header {
-
-}
-
-.logo {
-
-}
-
-.logo img  {
-
-}
-
-.contact {
-
-}
-
-.contact__tel {
-
-}
-
-.contact__shedule {
-
-}
-
-.shedule-tooltip {
-
-}
-
-.shedule-tooltip__work-hours {
-
-}
-
-.shedule-tooltip__dinner {
-
-}
-
-
-/* Wrapper */
-.wraper {
-
-}
-
-	/* Aside + nav */
-	.aside {}
-		.nav {}
-		.nav__ul {}
-
-	.main-section {
-
-	}
-
-	.breadcrumbs {
-
-	}
 
 	.article {
 
@@ -87,8 +32,8 @@ header.site-header {
 
 			}
 
-			.partners-list {
-
+			.partners-list li {
+				width: 8.33%;
 			}
 
 

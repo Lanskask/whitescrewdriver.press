@@ -101,6 +101,7 @@ header.site-header {
 
 /* Footer */
 footer.site-footer {
+	color: white;
 	background: #3366cc;
 }
 
@@ -141,34 +142,21 @@ footer.site-footer {
 	}
 
 
+/* 	.socials::before {
+	content: "\00a0 ";
+	width: 8.33%;
+}
+ */
 	.socials {
 		/*text-align: right;*/
+		float: right;
 	}
 
 	.socials__header {
 
 	}
 
-	.socials__icons {
-
-	}
-
-	.vk {
-
-	}
-
-	.face {
-
-	}
-
-	.g_pl {
-
-	}
-
-	.twt {
-
-	}
-
-	.email {
-
+	.socials__icons li {
+		display: inline;
+		/*text-decoration: none;*/
 	}
