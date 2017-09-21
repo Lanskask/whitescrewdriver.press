@@ -83,9 +83,29 @@ header.site-header {
 
 	}
 
+	/* breadcrumbs */
 	.breadcrumbs {
-
+		color: blue;		
+		/*text-decoration: none;*/
 	}
+
+	.breadcrumbs li {
+		display: inline-block;
+	}
+
+	.breadcrumbs li:after {
+		content: "/";
+	}
+
+	.breadcrumbs li:last-child:after {
+		display: none;
+	}
+
+	.breadcrumbs__link_current {
+		color: black;
+		text-decoration: none;
+	}	
+	/* End of breadcrumbs */
 
 	.article {
 

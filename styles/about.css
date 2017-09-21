@@ -32,8 +32,19 @@
 
 			}
 
+			.partners-list {
+				
+			}
+
 			.partners-list li {
-				width: 8.33%;
+				float: left;
+				/*text-decoration: none;*/
+				width: 33.33%;
+				display: inline-block;
+			}
+
+			.partners-list li img {
+				width: 25%;
 			}
 
 
