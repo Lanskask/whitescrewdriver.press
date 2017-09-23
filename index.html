@@ -5,49 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>White Crew Driver</title>
-    <!-- <base href="https://lanskask.github.io/whitescrewdriver.press"> -->
-    <!-- <base href="http://127.0.0.1:8080/"> -->
-    <base href="whitescrewdriver.press/">
-    <link rel="stylesheet" type="text/css" href="whitescrewdriver.press/styles/main.css">
-    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <title>AIR Planet</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/intro.css">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
 </head>
 
 <body>
-    <!-- <ul>
-        <li><a href="https://lanskask.github.io/whitescrewdriver.press/pages/intro.html">intro</a></li>
-        <li><a href="https://lanskask.github.io/whitescrewdriver.press/pages/about.html">about</a></li>
-        <li><a href="https://lanskask.github.io/whitescrewdriver.press/pages/comments.html">comments</a></li>
-        <li><a href="https://lanskask.github.io/whitescrewdriver.press/pages/team.html">team</a></li>
-    </ul> -->
-    <ul>
-        <li><a href="/pages/intro.html">intro</a></li>
-        <li><a href="/pages/about.html">about</a></li>
-        <li><a href="/pages/comments.html">comments</a></li>
-        <li><a href="/pages/team.html">team</a></li>
-    </ul>
-    
-    <header class="main_header">
-        <h1>White Screw Driver</h1>
-    </header>
-
-    <div class="wrap">
-        <section>
-            <article class="article">
-                <div class="article_body">
-                    <b>It's a pic bind with REALTIVE path:</b>
-                    <!-- <img src="whitescrewdriver.press/img/brocolli_tree.jpg" width="130px"> -->
-                    <img src="./img/brocolli_tree.jpg" width="130px">
-                </div>
-            </article>
-            <article class="article">
-                <div class="article_body">
-                    <b>It's a pic bind with ABSOLUTE path:</b>
-                    <!-- <img src="https://lanskask.github.io/whitescrewdriver.press/img/creature.gif" width="130px"> -->
-                    <img src="/img/creature.gif" width="130px">
-                </div>
-            </article>
-        </section>
+    <div class="all_body">
+        <div class="wrap">
+            <div class="main-logo">
+                <img src="../img/intro/intro_logo.png" alt="A.I.R. Planet">
+            </div>
+            <a href="./pages/about.html">
+            <button id="comment-form" class="send-button">
+                <span class="send-button__text">Перейти на сайт</span>
+                <!-- here should be 
+                    send-button__text:after {
+                        src='./img/send_arror' 
+                    }
+                    and 
+                    send-button__text:after:hover {
+                        src='./img/send_arror__hover'
+                    }
+                -->
+            </button>
+        </a>
+        </div>
     </div>
 </body>
 
