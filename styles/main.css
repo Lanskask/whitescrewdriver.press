@@ -109,8 +109,9 @@ header.site-header {
 
 	/* Aside + nav */
 	.aside {
-		margin-top: 45px;
-		width: 200px;
+		margin-left: 21px;
+		margin-top: 44px;
+	    width: calc(200px - 21px);
 		/*margin-left: 21px;*/
 		float: left;
 		/*display: inline-block;*/
@@ -125,7 +126,7 @@ header.site-header {
 			color: rgb(28, 91, 195);
 			font-weight: bold;
 			text-transform: uppercase;
-			line-height: 4.5;
+			line-height: 4.2;
 			text-decoration: none;
 		}
 		
@@ -185,7 +186,7 @@ header.site-header {
 		}
 
 		.article__body {
-
+		    margin-top: 38px;
 		}
 
 /* Footer */
@@ -241,16 +242,19 @@ footer.site-footer {
 
 		}
 
+		.social_icons ul {
+		    font-size: 43px;
+    		margin-top: -19px;
+		}
+
 		.socials__icons li {
-			display: inline;
 			background-color: white;
 			border-radius: 50%;
 			width: 20px;
 			height: 20px;
-			/*text-decoration: none;*/
-		}
+			color:  #1c5bc3;
 
-		.socials__icons li {
-			width: 20px;
-			height: 20px;
+		    text-align: center;
+		    display: inline-block;
+		    padding: 1%;
 		}
