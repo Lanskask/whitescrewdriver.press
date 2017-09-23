@@ -3,14 +3,44 @@
     padding: 0;
     box-sizing: border-box;
 	font-family: Roboto;
+	font-size: 14px;
 }
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+} 
+
+[class*="col-"] {
+    float: left;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
 
 /* Blocks at all pages */
 /* Header */
 header.site-header {
 	background: #3366cc;
-	height: 77px;
+	height: 78px;
 	color: white;
+}
+
+.header-container {
+	width: 1100px;
+	margin: 0 auto;
+	/*text-align: center;*/
 }
 
 	.logo {
@@ -34,16 +64,21 @@ header.site-header {
 	}
 
 	.contact__tel {
+		margin-right: -1px;
+	    margin-top: -2px;
 	 	font-weight: bold;
+	 	font-size: 21px;
 	}
 
 	.contact__shedule {
-	  /*font-size: 14px;*/
-	  color: #bbceed;
-	  font-weight: bold;
-	  text-decoration: underline;
-	  text-align: right;
-	  /*line-height: 3.857;*/
+		margin-right: -1px;
+	    margin-top: 3px;
+		font-size: 14px;
+		color: #bbceed;
+		font-weight: bold;
+		text-decoration: underline;
+		text-align: right;
+		/*line-height: 3.857;*/
 	}
 
 	/* ------- */
@@ -61,10 +96,10 @@ header.site-header {
 
 /* ------------------- */
 /* Wrapper */
-.wraper {
-	/*width: 1100px;*/
+.wrapper {
+	width: 1100px;
+	margin: 0 auto;
 }
-
 
 .wrapper:after {
     content: "";
@@ -74,19 +109,36 @@ header.site-header {
 
 	/* Aside + nav */
 	.aside {
+		margin-top: 45px;
 		width: 200px;
 		/*margin-left: 21px;*/
-		/*float: left;*/
+		float: left;
 		/*display: inline-block;*/
 	}
-		.nav {
 
+		.nav ul {
+			list-style-type: none;
 		}
-		.nav__ul {}
 
+		.nav a {
+			font-size: 12px;
+			color: rgb(28, 91, 195);
+			font-weight: bold;
+			text-transform: uppercase;
+			line-height: 4.5;
+			text-decoration: none;
+		}
+		
+		.nav a:active {
+			color: rgb(28, 91, 195);
+		}
+		
+		
+
+	/* Main part of the site */
 	.main-section {
 		width: calc(100% - 200px);
-		margin-left: 200px;
+		/*margin-left: 200px;*/
 		float: left;
 		/*display: inline-block;*/
 		background-color: #fff;
@@ -94,26 +146,31 @@ header.site-header {
 
 		/* breadcrumbs */
 		.breadcrumbs {
+			font-style: italic;
+			margin-top: 43px;
 			color: blue;		
 			/*text-decoration: none;*/
 		}
 
 		.breadcrumbs li {
 			display: inline-block;
+			text-decoration: underline;
 		}
 
-		.breadcrumbs li:after {
-			content: "/";
+		.breadcrumbs li:before {
+			content: " / ";
+			text-decoration: none;
 		}
 
-		.breadcrumbs li:last-child:after {
+		.breadcrumbs li:first-child:before {
 			display: none;
 		}
 
-		.breadcrumbs__link_current {
+		.breadcrumbs li:last-child {
 			color: black;
 			text-decoration: none;
-		}	
+		}
+
 		/* End of breadcrumbs */
 
 		.article {
@@ -121,7 +178,10 @@ header.site-header {
 		}
 
 		.article__header {
-
+		    margin-left: -3px;
+		    margin-top: 15px;
+			font-size: 49px;
+		 	font-weight: bold;
 		}
 
 		.article__body {
@@ -130,64 +190,67 @@ header.site-header {
 
 /* Footer */
 footer.site-footer {
-	/*display: block;*/
+	font-size: 14px;
 	color: white;
 	background: #3366cc;
 	height: 77px;
 }
 
+.footer-container {
+	width: 1100px;
+	margin: 0 auto;
+}
+
 	.made-by {
-
+	    float: left;
+	    width: 25%;
+	    margin-top: 12px;
+	    margin-left: 19px;
+		line-height: 1.286;
 	}
-
-	.made-by__school {
-
-	}
-
-	.made-by__author {
-
-	}
-
-
-	.made-by_bold {
-
-	}
-
-	.made-by_underline {
-
-	}
-
+/* .Сделано_с_любовью_и_старанием_на_курсе_«HTML___ {
+  font-size: 14px;
+  font-family: "Roboto";
+  color: rgb(255, 255, 255);
+  position: absolute;
+  left: 18.797px;
+  top: 1175.023px;
+  width: 235px;
+  height: 50px;
+  z-index: 16;
+} */
 
 	.footer__logo  {
-		display: inline-block;
-		margin: 0 auto;	
+	    width: 50%;
+	    float: left;
+		margin-top: 19px;
 		text-align: center;	
 	}
 
-	.footer__logo_center {
-
-	}
-
 	.footer__logo img {
-
+	    margin-right: 37px;
 	}
 
-
-/* 	.socials::before {
-	content: "\00a0 ";
-	width: 8.33%;
-}
- */
-	.socials {
-		/*text-align: right;*/
+	.footer__socials {
 		float: right;
+		margin-top: 17px;
+		margin-right: 19px;
 	}
+	
+		.socials__header {
 
-	.socials__header {
+		}
 
-	}
+		.socials__icons li {
+			display: inline;
+			background-color: white;
+			border-radius: 50%;
+			width: 20px;
+			height: 20px;
+			/*text-decoration: none;*/
+		}
 
-	.socials__icons li {
-		display: inline;
-		/*text-decoration: none;*/
-	}
+		.socials__icons li {
+			width: 20px;
+			height: 20px;
+		}

@@ -1,0 +1,37 @@
+
+/* In aside nav bar */
+.nav__main:before {
+	content: url('../img/icons/send_arror-blue.png')
+}
+.nav__team:before {
+	content: url('../img/icons/team_icon-black.png')
+}
+.nav__comments:before {
+	content: url('../img/icons/feed_icon-blue.png')
+}
+
+/* Main part */
+.members-list { /* ul */
+	list-style-type: none;
+}
+
+	.member {
+
+	}
+
+	.member__photo img {
+		border-radius: 50%;
+		width: 160px;
+	}
+
+	.member__name {
+
+	}
+
+	.member__position {
+
+	}
+
+	.member__descr {
+
+	}
