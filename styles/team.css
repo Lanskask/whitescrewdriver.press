@@ -22,6 +22,7 @@
 		line-height: 1.167;
 		text-align: center;
 		color: rgb(34, 31, 31);
+		vertical-align: top;
 	}
 
 		.member__photo img {

@@ -9,3 +9,179 @@
 .nav__comments:before {
 	content: url('../img/icons/feed_icon-black.png')
 }
+
+/* Main part */
+.comments-list {
+	list-style-type: none;
+	margin-right: 21px;
+}
+
+	.comments-list__item { /* ul */
+		margin-bottom: 62px;
+	}
+
+	.comment { /* div */
+
+	}
+
+		.comment__photo {
+			display: inline-block;
+			width: 160px;
+		}
+
+		.comment__photo img {
+			border-radius: 50%;
+			background-color: rgb(207, 216, 220);
+			width: 160px;
+			height: 160px;
+		}
+		
+		.comment__info {
+			vertical-align: top;
+			margin-left: 20px;
+			display: inline-block;
+			color: rgb(101, 100, 100);
+			line-height: 1.5;
+			width: 695px;
+		}
+
+
+			.comment__data {
+
+			}
+
+			.comment__name {
+				font-weight: bold;
+			}
+
+			.comment__descr {
+
+			}
+
+.paging {
+	text-align: center;
+	margin-bottom: 63px;
+}
+
+	.what-page {
+
+	}
+
+	.pages {
+
+	}
+
+.form-container {
+	padding: 50px 70px 49px 63px;
+	/* padding-top: 50px;
+	padding-right: 70px;
+	padding-bottom: 49px;
+	padding-left: 63px; */
+  border-radius: 3px;
+  background-color: rgb(245, 245, 245);
+  width: 700px;
+  margin-bottom: 71px;
+  /*height: 427px;*/
+}
+
+.form {
+
+}
+
+	.comment-form {
+
+	}
+
+	.form-header {
+		margin-top: 60px;
+		margin-bottom: 28px;
+		font-size: 49px;
+		color: rgb(34, 31, 31);
+		font-weight: bold;
+		line-height: 0.776;
+	}
+
+		.name-mail-row {
+		}
+
+		.name-mail-row__name {
+			margin-right: 23px;
+			display: inline-block;
+			/*width: 25%;*/
+		}
+
+		.name-mail-row__name label {
+			display: block;
+		}
+
+		.name-mail-row__name input {
+			border-width: 0;
+			border-radius: 3px;
+			width: 269px;
+			height: 45px;
+		}
+
+		.name-mail-row__mail {
+			display: inline-block;
+			/*width: 25%;*/
+		}
+
+		.name-mail-row__mail label {
+			display: block;
+		}
+
+		.name-mail-row__mail input {
+			border-width: 0;
+			border-radius: 3px;
+			width: 269px;
+			height: 45px;
+		}
+
+		.text-row {
+
+		}
+
+		.text-row label {
+
+		}
+
+		.text-row input {
+			border-width: 1px;
+			border-color: rgb(28, 91, 195);
+			border-style: solid;
+			border-radius: 3px;
+			width: 559px;
+			height: 88px;
+		}
+
+	.check-submit-row {
+
+	}
+
+		.check {
+
+		}
+
+		.check__header {
+
+		}
+
+		.check__checks {
+
+		}
+
+		.check__yes {
+
+		}
+
+		.check__no {
+
+		}
+
+	.send-button {
+
+	}
+
+		.send-button__text {
+
+		}

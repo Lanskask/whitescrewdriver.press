@@ -29,6 +29,11 @@
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-weight: normal;
+}
+
 /* Blocks at all pages */
 /* Header */
 header.site-header {
