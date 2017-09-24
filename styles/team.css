@@ -16,22 +16,29 @@
 }
 
 	.member {
-
+		display: inline-block;
+		float: left;
+		width: 256px;
+		line-height: 1.167;
+		text-align: center;
+		color: rgb(34, 31, 31);
 	}
 
-	.member__photo img {
-		border-radius: 50%;
-		width: 160px;
-	}
+		.member__photo img {
+			border-radius: 50%;
+			width: 160px;
+		}
 
-	.member__name {
+		.member__name {
+			font-size: 18px;
+			font-weight: bold;
+		}
 
-	}
+		.member__position {
+			font-weight: bold;
+			color: #1c5bc3;
+		}
 
-	.member__position {
-
-	}
-
-	.member__descr {
-
-	}
+		.member__descr {
+			/*color: rgb(34, 31, 31);*/
+		}
