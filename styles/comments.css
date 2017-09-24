@@ -1,0 +1,11 @@
+
+/* In aside nav bar */
+.nav__main:before {
+	content: url('../img/icons/send_arror-blue.png')
+}
+.nav__team:before {
+	content: url('../img/icons/team_icon-blue.png')
+}
+.nav__comments:before {
+	content: url('../img/icons/feed_icon-black.png')
+}

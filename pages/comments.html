@@ -16,32 +16,46 @@
 
     <!-- Site header -->
     <header class="site-header">
-        <div class="logo">
-            <img src="../img/logo_header.png" alt="logo">
-        </div>
-        <div class="contact">
-            <div class="contact__tel">8 (800) 00-392-10</div>
-            <div class="contact__shedule"></div>
-        </div>
-        <div class="shedule-tooltip">
-            <div class="shedule-tooltip__work-hours">
-                пн-вс: 09:00-20:00
+        <div class="header-container">
+            <div class="logo">
+                <img src="../img/logo_header.png" alt="logo">
             </div>
-            <div class="shedule-tooltip__dinner">
-                обед: 14:00-14:30
+            <div class="contact">
+                <div class="contact__tel">8 (800) 00-392-10</div>
+                <div class="contact__shedule">График работы</div>
+            </div>
+            <div class="shedule-tooltip">
+                <div class="shedule-tooltip__work-hours">
+                    пн-вс: 09:00-20:00
+                </div>
+                <div class="shedule-tooltip__dinner">
+                    обед: 14:00-14:30
+                </div>
             </div>
         </div>
     </header>
     <!-- End of Site header -->
 
-    <div class="wraper">
+    <div class="wrapper">
         <!-- Aside navigation -->
-        <aside>
-            <nav>
-                <ul>
-                    <li><a href="./about.html">Главная</a></li>
-                    <li><a href="./team.html">Экипаж</a></li>
-                    <li><a href="#">Отзывы</a></li>
+        <aside class="aside">
+            <nav class="nav">
+                <ul class="nav_ul">
+                    <li>
+                        <a href="./about.html" class="nav__main">
+                            Главная
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav__team">
+                            Экипаж
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./comments.html" class="nav__comments">
+                            Отзывы
+                        </a>
+                    </li>
                 </ul>
             </nav>
         </aside>
@@ -49,12 +63,17 @@
 
         <section class="main-section">
             <!-- Breadcrumbs -->
-            <div class="breadcrumbs">Главная / Отзывы</div>
+            <ul class="breadcrumbs">
+                <li>Главная</li>
+                <li>Отзывы</li>
+            </ul>
             <!-- End of Breadcrumbs -->
 
             <!-- Main changing part -->
-            <article>
-                <header class="article__header"></header>
+            <article class="article">
+                <header class="article__header">
+                    Отзывы
+                </header>
                 <div class="article__body">
                     <ul class="comments-list">
                         <li>
@@ -212,27 +231,30 @@
 
     <!-- Site footer -->
     <footer class="site-footer">
-        <div class="made-by">
-            Сделано с любовью и старанием на курсе «HTML + CSS» в
-            <span class="made-by_school made-by_bold made-by_underline">LoftSchool</span>. Автор работы: <span class="made-by__author made-by_bold">Муртазин Сергей
-        </div>
-        <div class="logo logo_center">
-            <img src="../img/logo_header.png" alt="logo">
-        </div>
-        <div class="socials">
-            <div class="socials__header">
-                Наши социальные сети
+        <div class="footer-container">
+            <div class="made-by">
+                Сделано с любовью и старанием <br>
+                на курсе «HTML + CSS» в 
+                <b><u>LoftSchool</u></b>. <br>
+                Автор работы: <b>Муртазин Сергей</b>
             </div>
-            <div class="socials__icons">
-               <ul>
-                    <li><i class="fa fa-vk"></i></li>
-                    <li><i class="fa fa-facebook"></i></li>
-                    <li><i class="fa fa-google-plus"></i></li>
-                    <li><i class="fa fa-twitter"></i></li>
-                    <li><i class="fa fa-envelope"></i></li>
-                </ul>
+            <div class="footer__logo">
+                <img src="../img/logo_header.png" alt="logo">
             </div>
-        </div>
+            <div class="footer__socials">
+                <div class="socials__header">
+                    <b>Наши социальные сети</b>
+                </div>
+                <div class="socials__icons">
+                   <ul class="soc-icons__ul">
+                        <li><i class="fa fa-vk"></i></li>
+                        <li><i class="fa fa-facebook"></i></li>
+                        <li><i class="fa fa-google-plus"></i></li>
+                        <li><i class="fa fa-twitter"></i></li>
+                        <li><i class="fa fa-envelope"></i></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </footer>
     <!-- End of Site footer -->

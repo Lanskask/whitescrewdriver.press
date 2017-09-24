@@ -15,33 +15,45 @@
 <body>
     <!-- Site header -->
     <header class="site-header">
-        <a href="#" class="logo">
-            <img src="../img/logo_header.png" alt="logo">
-        </a>
-        <div class="contact-shedule">
-            <div class="contact__tel">8 (800) 00-392-10</div>
-            <div class="contact__shedule">
-                График работы
+        <div class="header-container">
+            <div class="logo">
+                <img src="../img/logo_header.png" alt="logo">
             </div>
-        </div>
-        <div class="shedule-tooltip">
-            <div class="shedule-tooltip__work-hours">
-                пн-вс: 09:00-20:00
+            <div class="contact">
+                <div class="contact__tel">8 (800) 00-392-10</div>
+                <div class="contact__shedule">График работы</div>
             </div>
-            <div class="shedule-tooltip__dinner">
-                обед: 14:00-14:30
+            <div class="shedule-tooltip">
+                <div class="shedule-tooltip__work-hours">
+                    пн-вс: 09:00-20:00
+                </div>
+                <div class="shedule-tooltip__dinner">
+                    обед: 14:00-14:30
+                </div>
             </div>
         </div>
     </header>
     <!-- End of Site header -->
-    <div class="wraper row">
+    <div class="wrapper">
         <!-- Aside navigation -->
-        <aside class="aside col-2">
+        <aside class="aside">
             <nav class="nav">
-                <ul class="nav__ul">
-                    <li><a href="#">Главная</a></li>
-                    <li><a href="./team.html">Экипаж</a></li>
-                    <li><a href="./comments.html">Отзывы</a></li>
+                <ul class="nav_ul">
+                    <li>
+                        <a href="./about.html" class="nav__main">
+                            Главная
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav__team">
+                            Экипаж
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./comments.html" class="nav__comments">
+                            Отзывы
+                        </a>
+                    </li>
                 </ul>
             </nav>
         </aside>
@@ -49,25 +61,10 @@
 
         <section class="main-section col-8">
             <!-- Breadcrumbs -->
-            <div class="breadcrumbs">
-                <ul>
-                    <li>
-                        <a href="" class="breadcrumbs__link">
-                            Главная
-                        </a>
-                    </li>
-                    <li>
-                        <a href="" class="breadcrumbs__link">
-                            Экипаж
-                        </a>
-                    </li>
-                    <li>
-                        <a href="" class="breadcrumbs__link breadcrumbs__link_current">
-                            Ещё страница
-                        </a>
-                    </li>
-                </ul>
-            </div>
+            <ul class="breadcrumbs">
+                <li>Главная</li>
+                <li>О компании</li>
+            </ul>
             <!-- End of Breadcrumbs -->
             <!-- Main changing part -->
             <article class="article">
@@ -140,35 +137,30 @@
     <!-- End of Wrapper -->
 
     <!-- Site footer -->
-    <footer class="site-footer row">
-        <div class="made-by col-3">
-            Сделано с любовью и старанием на курсе «HTML + CSS» в
-            <!-- <span class="made-by__school made-by_bold made-by_underline"> -->
-                <u><b>LoftSchool</b></u>.
-                <br>
-            <!-- </span>.  -->
-            Автор работы:
-            <span class="made-by__author made-by_bold">
-                <b>Муртазин Сергей</b>
-            </span>
-        </div>
-
-        <div class="logo logo_center col-6">
-            <img src="../img/logo_header.png" alt="logo">
-        </div>
-
-        <div class="socials col-2">
-            <div class="socials__header">
-                Наши социальные сети
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="made-by">
+                Сделано с любовью и старанием <br>
+                на курсе «HTML + CSS» в 
+                <b><u>LoftSchool</u></b>. <br>
+                Автор работы: <b>Муртазин Сергей</b>
             </div>
-            <div class="socials__icons">
-                <ul>
-                    <li><i class="fa fa-vk"></i></li>
-                    <li><i class="fa fa-facebook"></i></li>
-                    <li><i class="fa fa-google-plus"></i></li>
-                    <li><i class="fa fa-twitter"></i></li>
-                    <li><i class="fa fa-envelope"></i></li>
-                </ul>
+            <div class="footer__logo">
+                <img src="../img/logo_header.png" alt="logo">
+            </div>
+            <div class="footer__socials">
+                <div class="socials__header">
+                    <b>Наши социальные сети</b>
+                </div>
+                <div class="socials__icons">
+                   <ul class="soc-icons__ul">
+                        <li><i class="fa fa-vk"></i></li>
+                        <li><i class="fa fa-facebook"></i></li>
+                        <li><i class="fa fa-google-plus"></i></li>
+                        <li><i class="fa fa-twitter"></i></li>
+                        <li><i class="fa fa-envelope"></i></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </footer>
