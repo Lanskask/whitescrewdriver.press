@@ -17,7 +17,27 @@
 }
 
 	.comments-list__item { /* ul */
-		margin-bottom: 62px;
+		margin-bottom: 28px;
+	}
+
+	.comments-list__item:after { /* ul */
+	    content: "";
+	    display: block;
+		height: 2px;
+	    border: 0;
+	    /*border-top: 1px solid rgb(245, 245, 245);*/
+	    border-top: 1px solid #000;
+	    /*margin: 1em 0;*/
+	    margin-top: 27px;
+	    padding: 0;
+		width: 880px;
+	    /*height: 50px;*/
+	    /*width: 50px;*/
+		/*background: #000;*/
+	}
+	
+	.comments-list__item:last-child:after { /* ul */
+		display: none;
 	}
 
 	.comment { /* div */
@@ -38,37 +58,59 @@
 		
 		.comment__info {
 			vertical-align: top;
-			margin-left: 20px;
+			margin-left: 17px;
 			display: inline-block;
 			color: rgb(101, 100, 100);
 			line-height: 1.5;
-			width: 695px;
+			width: 696px;
+			
+			text-align: left;
+			min-height: 135px;*/
 		}
 
-
 			.comment__data {
-
+				margin-top: -3px;
 			}
 
 			.comment__name {
+			    margin-top: 1px;
+		        margin-bottom: 6px;
+			    font-size: 18px;
 				font-weight: bold;
 			}
 
 			.comment__descr {
-
+				line-height: 1.7;
+				font-size: 18px;
 			}
 
 .paging {
+	margin-left: -117px;
 	text-align: center;
 	margin-bottom: 63px;
+	margin-top: 40px;
 }
 
 	.what-page {
-
+		color: rgb(101, 100, 100);
+		line-height: 1.5;
+		text-align: left;
+		width: 101.354px;
+		height: 13px;
+		margin-right: 20px;
 	}
 
 	.pages {
+	    letter-spacing: 7px;
+		font-weight: bold;
+		line-height: 1.5;
+		text-align: center;
+	}
 
+	.pages__current {
+		background-color: rgb(28, 91, 195);
+		border-radius: 3px;
+		margin-left: 1px;
 	}
 
 .form-container {
@@ -77,19 +119,20 @@
 	padding-right: 70px;
 	padding-bottom: 49px;
 	padding-left: 63px; */
-  border-radius: 3px;
-  background-color: rgb(245, 245, 245);
-  width: 700px;
-  margin-bottom: 71px;
-  /*height: 427px;*/
+	border-radius: 3px;
+	background-color: rgb(245, 245, 245);
+	width: 700px;
+	margin-bottom: 71px;
+	/*height: 427px;*/
 }
 
 .form {
 
 }
 
-	.comment-form {
-
+	.comment-form input:hover {
+		border-width: 1px;
+		border-color: rgb(28, 91, 195);
 	}
 
 	.form-header {
@@ -146,20 +189,20 @@
 		}
 
 		.text-row input {
-			border-width: 1px;
-			border-color: rgb(28, 91, 195);
+			border-width: 0;
 			border-style: solid;
 			border-radius: 3px;
 			width: 559px;
 			height: 88px;
 		}
 
-	.check-submit-row {
 
+	.check-submit-row {
+		margin-top: 19px;
 	}
 
 		.check {
-
+			display: inline-block;
 		}
 
 		.check__header {
@@ -179,9 +222,30 @@
 		}
 
 	.send-button {
+		display: inline-block;
+		float: right;
+		border-radius: 3px;
+		border: 0;
+		background-color: rgb(28, 91, 195);
+		width: 154px;
+		height: 45px;
+		color: white;
+	}
+		.send-button__text {
+			font-weight: bold;
+			text-transform: uppercase;
+		}
 
+		.send-button__text:after {
+			content: url('../img/icons/send_arror.png');
+		}
+
+	.send-button:hover {
+		background-color: white;
+		color: rgb(28, 91, 195);
 	}
 
-		.send-button__text {
-
+		.send-button__text:after:hover {
+			content: url('../img/icons/send_arrow-blue.png');
 		}
+
