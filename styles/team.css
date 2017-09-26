@@ -15,6 +15,11 @@
 	list-style-type: none;
 }
 
+	.members-list__item {
+		display: inline-block;
+		vertical-align: top;
+	}
+
 	.member {
 		display: inline-block;
 		float: left;
