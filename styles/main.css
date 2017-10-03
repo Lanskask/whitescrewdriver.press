@@ -65,6 +65,9 @@
 h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 	font-weight: normal;
+
+	font-size: 14px;
+	font-family: "Roboto"; 
 }
 
 /* Blocks at all pages */
@@ -238,8 +241,26 @@ header.site-header {
 		}
 
 /* Footer */
-footer.site-footer {
+/*footer.site-footer {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+
 	font-size: 14px;
+	color: white;
+	background: #3366cc;
+	height: 77px;
+}*/
+
+footer.site-footer {
+    display: flex;
+
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+
+    font-size: 14px;
 	color: white;
 	background: #3366cc;
 	height: 77px;
@@ -257,17 +278,6 @@ footer.site-footer {
 	    margin-left: 19px;
 		line-height: 1.286;
 	}
-/* .Сделано_с_любовью_и_старанием_на_курсе_«HTML___ {
-  font-size: 14px;
-  font-family: "Roboto";
-  color: rgb(255, 255, 255);
-  position: absolute;
-  left: 18.797px;
-  top: 1175.023px;
-  width: 235px;
-  height: 50px;
-  z-index: 16;
-} */
 
 	.footer__logo  {
 	    width: 50%;

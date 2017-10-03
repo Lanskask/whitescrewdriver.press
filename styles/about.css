@@ -19,111 +19,122 @@
 
 	}
 
-	.article__body {
+	.main-block-banner {
+	    position: relative;
+	    display: inline-block;
+	    width: 880px;
+	    margin-top: -40px;
+	    height: 355px;
+	    overflow: hidden;
+	}
 
+		.main-block-banner_image img {
+		    width: 100%;
+		}
+
+		.main-block-banner_text {
+		    position: absolute;
+		    top: 44%;
+		    left: 67px;
+		}
+
+			.bold-text {
+			    font-weight: bold;
+			}
+
+			.title {
+			    font-weight: bold;
+			    line-height: 38px;
+			    font-size: 49px;
+			    margin: 0 auto;
+			}
+
+	/*----------------*/
+	.article__body {
+		font-family: 'Roboto';
+	    font-size: 18px;
 	}
 
 		.main-text {
-
+		    font-size: 18px;
+		    width: 700px;
+		    line-height: 30px;
 		}
 
-		.clients-list {
-
-		}
+			.clients-list {
+			    list-style: none;
+			    padding-left: 40px;
+			    margin: -5px auto;
+			}
 
 		.booking {
-
+		    margin-top: 10px;
+		    margin-bottom: 65px;
+		    padding: 16px 30px;
+		    color: #fff;
+		    background-color: #1c5bc3;
 		}
 
 
 		.partners {
-
+			margin: 0 -15px -70px -15px;
 		}
 
 			.partners__header {
-
+			    font-weight: bold;
+			    line-height: 38px;
+			    font-size: 49px;
+			    margin-left: 15px;
 			}
+
+				.partners__header--bold {
+				    font-weight: bold;
+				}
 
 			.partners-list {
-				
+			    line-height: 80px;
+			    display: flex;
+			    width: 100%;
+			    margin-top: 52px;
+			    margin-bottom: 8px;
+			    justify-content: space-between;
+			    flex-wrap: wrap;
+			    align-items: stretch;
 			}
 
-			.partners-list li {
+				.partner-list__item {
+				    list-style: none;
+				    text-align: center;
+				    width: 160px;
+				    margin: 0 15px 30px 16px;
+				    position: relative;
+				}
+
+				.partner-list__item > div {
+				    position: relative;
+				}
+
+				.partner-list__item img {
+				    -webkit-filter: grayscale(1);
+				    filter: gray;
+				    filter: grayscale(1);
+				    width: 160px;
+				}
+
+				.partner-list__item img:hover {
+				    transition: .5s ease;
+				    -webkit-filter: none;
+				    filter: none;
+				    filter: none;
+				}
+
+			/*.partners-list li {
 				float: left;
-				/*text-decoration: none;*/
+				text-decoration: none;
 				width: 33.33%;
 				display: inline-block;
 			}
 
 			.partners-list li img {
 				width: 25%;
-			}
-
-
-/* Footer */
-footer.site-footer {
-
-}
-
-	.made-by {
-
-	}
-
-	.made-by__school {
-
-	}
-
-	.made-by__author {
-
-	}
-
-
-	.made-by_bold {
-
-	}
-
-	.made-by_underline {
-
-	}
-
-
-	.logo  {
-
-	}
-
-	.logo_center {
-
-	}
-
-
-	.socials {
-
-	}
-
-	.socials__header {
-
-	}
-
-	.socials__icons {
-
-	}
-
-	.vk {
-
-	}
-
-	.face {
-
-	}
-
-	.g_pl {
-
-	}
-
-	.twt {
-
-	}
-
-	.email {
-
-	}
+			}*/
